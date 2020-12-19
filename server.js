@@ -12,7 +12,7 @@ app.listen(8080, function(){
 
 
 app.get('/write', function(요청, 응답){
-    응답.sendFile(__dirname+ '/todoWrite.html')
+    응답.sendFile(__dirname+ '/index.html')
 })
 
 app.get('/', function(요청, 응답){
